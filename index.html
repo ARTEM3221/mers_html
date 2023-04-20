@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mers</title>
+  <link rel="shortcut icon"
+    href="data:image/png;base64,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"
+    type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <button class="header__nav">
+          <img src="images/menu-btn.svg" alt="">
+        </button>
+        <a href="#" class="logo">
+          <img src="images/logo__img.svg" alt="" class="logo__img">
+        </a>
+        <ul class="list">
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/twitter.svg" alt="" class="list__img">
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/google.svg" alt="" class="list__img">
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/facebook.svg" alt="" class="list__img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__content">
+      <h1 class="title">The VISION AVTR</h1>
+      <p class="title-descr">Inspered by the future</p>
+    </div>
+  </header>
+
+  <section class="concept">
+    <div class="container">
+      <div class="concept__inner">
+        <h3 class="concept__title section__title">CONCEPT</h3>
+        <p class="concept__text">Электромобильность в гармонии с человеком и природой. Экологичная технология
+          органических аккумуляторов и продуманная операционная стратегия концепт-кара VISION AVTR. </p>
+        <img src="/images/concept.jpg" alt="" class="concept__img">
+      </div>
+    </div>
+  </section>
+
+  <section class="premier">
+    <div class="container">
+      <div class="premier__inner">
+        <div class="premier__colum">
+          <h3 class="section__title">PREMIER</h3>
+          <p class="premier__text">
+            На выставке CES 2020 был представлен новый концептуальный Mercedes-Benz – VISION AVTR. Футуристическая
+            концепция представленного электромобиля объединяет человека, природу и автомобиль уникальным образом.
+          </p>
+          <p class="premier__text">
+            Ола Каллениус, председатель правления Daimler AG и Mercedes-Benz AG, в своем выступлении представил
+            концепт-кар вместе с лауреатом премии Оскар и создателем фильма Аватар, Джеймсом Кэмероном.
+          </p>
+          <p class="premier__text">
+            Именно философия, созданная культовым режиссером в фантастическом фильме, стала основой создания VISION
+            AVTR.
+          </p>
+          <img class="premier__img" src="images/premier.jpg">
+          <button class="premier__btn">MORE</button>
+        </div>
+        <div class="premier__colum">
+          <img class="premier__img" src="images/premier2.png">
+          <p class="premier__text">
+            «Mercedes-Benz всегда был одним из самых технологичных премиальных брендов. Теперь пришло время объединить
+            роскошь и экологичность. Ведь только так мы сможем соответствовать стандартам будущего».
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="video">
+    <div class="container">
+      <img class="video__img" src="images/video.png">
+      <button class="video__btn">
+        <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 11.5L0.25 22.3253L0.25 0.674683L19 11.5Z" fill="#F402A2" />
+        </svg>
+        <span>PLAY VIDEO</span>
+      </button>
+    </div>
+  </div>
+
+  <section class="design">
+    <div class="container">
+      <div class="design__interior">
+        <div class="design__cell-one">
+          <h3 class="section__title">INTERIOR & EXTERIOR</h3>
+          <p class="design__cell-text">Дизайн VISION AVTR – воплощение экологичности</p>
+          <p class="design__cell-text">Новаторская концепция VISION AVTR сочетает в себе экологичное взаимодействие
+            дизайна интерьера, экстерьера и UX. Весь процесс проектирования был ориентирован на конкретный результат –
+            неповторимый опыт взаимодействия и восприятия концепт-кара водителем и пассажирами. Речь шла о создании
+            уникального пространства, в котором пассажиры имеют биометрическую связь друг с другом, с транспортным
+            средством и окружающим миром.</p>
+          <p class="design__cell-text">Боковое внешнее отверстие проходит через внутреннюю часть и создаёт бесконечную
+            петлю, прототипом которой стала священная связь между народом На'ви в фильме Аватар и их естественной средой
+            обитания. </p>
+          <p class="design__cell-text">Также, благодаря удлиненному дизайну «One Bow» и органической философии дизайна,
+            VISION AVTR демонстрирует радикально новый этап автомобилестроения. Таким образом, пройдя путь от концепции
+            осознанности до уникального слияния человека и автомобиля, инженерам Mercedes-Benz удалось создать
+            концептуальный электромобиль VISION AVTR.</p>
+        </div>
+        <img class="design__interior-img" src="images/design1.jpg">
+        <div class="design__cell-two">
+          <p class="design__cell-text">Лаконичным продолжением внешнего минималистичного дизайна являются передние
+            сиденья, выполненные в очень органичной форме, которая напоминает лиственные гамаки с планеты Пандора.
+            Центральная консоль символизирует Древо Душ, самое священное место На'ви. Блок управления – интуитивно
+            понятным и невероятно функциональным.</p>
+        </div>
+        <div class="design__cell-three">
+          <img lass="design__interior-img3" src="images/design2.png">
+        </div>
+      </div>
+    </div>
+    <div class="design-slider">
+      <img class="design-slider__item" src="images/slider1.jpg">
+      <img class="design-slider__item" src="images/slider2.jpg">
+      <img class="design-slider__item" src="images/slider3.jpg">
+      <img class="design-slider__item" src="images/slider4.jpg">
+
+      <img class="design-slider__item" src="images/slider1.jpg">
+      <img class="design-slider__item" src="images/slider2.jpg">
+      <img class="design-slider__item" src="images/slider3.jpg">
+      <img class="design-slider__item" src="images/slider4.jpg">
+    </div>
+
+    <div class="design__box">
+      <div class="design__box-column">
+        <p class="design__box-text">Кроме того, центр управления располагается таким образом, что является легко
+          доступным как для водителя, так и для пассажира, а также и для пассажиров сзади.</p>
+        <p class="design__box-text">Таким образом, VISION AVTR устанавливает тесную биометрическую связь с водителем и
+          помогает повысить осведомленность об окружающей ситуации.</p>
+      </div>
+      <div class="design__box-column">
+        <p class="design__box-text">Задняя часть сидений и внутренняя отделка крыши, выполнены из специальной ткани,
+          которая меняет цвет. В зависимости от освещения текстиль может быть темно-синего или нежного светло-синего
+          цвета.</p>
+        <p class="design__box-text">Но кроме этого, экологичность салона электромобиля повышена с помощью вегетарианской
+          кожи DINAMICA® – первой и единственной микрофиброй, которая гарантирует экологическую эффективность на
+          протяжении всего производственного цикла.</p>
+        <p class="design__box-text">DINAMICA® является переработанным материалом из старой одежды, тканей и пластиковых
+          бутылок из ПЭТФ.</p>
+      </div>
+    </div>
+
+    <img class="design__img" src="images/design.png">
+
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__iner">
+        <a href="#" class="footer__link">Политика конфиденциальности</a>
+        <a href="#" class="logo">
+          <img src="images/logo__img.svg" alt="" class="logo__img">
+        </a>
+        <ul class="list">
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/twitter.svg" alt="" class="list__img">
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/google.svg" alt="" class="list__img">
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="list__link">
+              <img src="images/facebook.svg" alt="" class="list__img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
